@@ -1,0 +1,35 @@
+<html>  
+<head>
+<script language="javascript">
+ var today = new Date();
+ document.write(today);
+ </script>
+ </head>
+<body>  
+<form action="Register" method="post">  
+  
+FirstName:<input type="text" name="firstName"/><br/><br/>  
+LastName:<input type="text" name="lastName">
+Email Id:<input type="text" name="userEmail"/><br/><br/> 
+Date:<input type="date" name="date"/><br/><br/> 
+Time:<input type="time" name="time"/><br/><br/>
+Topic:<select name="topic">  
+<option>Java</option>  
+<option>Html</option>  
+<option>Bootstrap</option> 
+<option>C++</option> 
+</select>  
+  
+<br/><br/>
+Location:<select name="location">  
+<option>Coimbatore</option>  
+<option>Salem</option>  
+<option>Chennai</option> 
+<option>Bangalore</option> 
+</select>  
+<br/><br/>
+<input type="submit" value="register"/>  
+  
+</form>  
+</body>  
+</html>  
